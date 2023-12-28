@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 32px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.col-6:first-child {
+    padding-left: 0;
+}
+
+.col-6:last-child {
+    padding-right: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 32px 32px;
+}
+
+.header-nav {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 379px;
+}
+
+.header-nav a {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header-link {
+    margin-top: 12px;
+}
+
+.header-link p {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.baner-title h1 {
+    color: #212529;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.baner-title {
+    width: 794px;
+    height: 258px;
+}
+
+.baner-link a {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.baner--h1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.baner-link {
+    display: block;
+    margin-left: 320px;
+    margin-top: 235px;
+}
+
+.tima {
+    display: flex;
+}
+
+.baner-p {
+    width: 445px;
+    height: 84px;
+    color: #212529;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 40px;
+}
+
+
+
+.col-6 .img--1 {
+    width: 329px;
+    height: 493px;
+    flex-shrink: 0;
+    margin-top: 232px;
+
+}
+
+
+
+.img--2 {
+    width: 678px;
+    height: 809px;
+    margin-left: auto;
+    margin-top: 40px;
+    /* Добавлено для выравнивания справа */
+    display: block;
+    /* Убедимся, что это блочный элемент */
+}
+
+.about {
+    margin-top: 120px;
+}
+
+.about-info-title {
+    width: 562px;
+    color: #212529;
+    font-family: Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: 120px; */
+}
+
+.about-text {
+    /* height: 208px; */
+    display: flex;
+    width: 679px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 29px;
+    margin-left: auto;
+}
+
+.about-text--p1 {
+    width: 446px;
+    height: 66px;
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.about-text--p2 {
+    width: 446px;
+    height: 44px;
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.about-text--p3 {
+    width: 446px;
+    height: 66px;
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.about-info {
+    display: flex;
+    height: 308px;
+    width: 678px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.about-info-item {
+    height: auto;
+    width: auto;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-info p {
+    color: #212529;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
